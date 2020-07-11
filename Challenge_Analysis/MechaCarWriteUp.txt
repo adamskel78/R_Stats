@@ -1,0 +1,11 @@
+# Mecha Car Write Up
+## MPG Regression
+    Multiple line regression was used to create a linear module that would help show some variables that could help predict the MPG dataset. After analysis it was found that vehicle length and ground clearance were the best predictors of MPG since both of their P values were under .05. Vehicle weight was only .07 which is above our threshold but might have been looked at more closely with the other two factors. The slope of the linear model is not considered zero since the p-value of the F-statistic is again under our .05 threshold as well. The linear model has a 71% chance of predicting the Mpg of the prototypes correctly. That is a better than average predictor. 
+
+## Suspension Coil Summary
+    The mean, median, variance, and standard deviation for the PSI of the suspension coils that came from three different lots were summarized in the R Script. The findings for Lot 1 were that there were very little difference between the sample tested. The standard deviation for the group was less than 1. Lot 2 was not as good as lot one but the variance was only 7.5 and the standard deviation was 2.7. With Lot 3 we ran into a problem. The variance exceeded 100 lbs with a variance of 170 lbs. The current design specification at Lot 3 would need to be addressed because they are above the variance of 100 lbs that was set.
+
+## Suspension Coil T-Test
+    A one sample t-test was used to determine if the mean of the samples from the three lots were statistically different from the mean population which is 1500. Lot 1 and Lot 2 showed no statistical difference from the population mean because the p-value for both were above the .05 threshold. Lot 3 had a p-value of .04 which would show that it is statically different from the population mean of 1500 since it below the threshold of .05 .
+
+## Design Your Own Study
